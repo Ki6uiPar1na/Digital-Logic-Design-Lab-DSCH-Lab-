@@ -1,11 +1,11 @@
 DSCH3
-VERSION 26/05/2024 14:08:02
+VERSION 31/05/2024 22:01:19
 BB(11,0,99,55)
 SYM  #button
 BB(11,11,20,19)
 TITLE 15 15  #button1
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(12,12,6,6,r)
 VIS 1
 PIN(20,15,0.000,0.000)in1
@@ -23,7 +23,7 @@ SYM  #button
 BB(11,31,20,39)
 TITLE 15 35  #button2
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(12,32,6,6,r)
 VIS 1
 PIN(20,35,0.000,0.000)in2
@@ -41,7 +41,7 @@ SYM  #xor2
 BB(60,5,95,25)
 TITLE 77 15  #^
 MODEL 602
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(5,-5,0,0, )
 VIS 0
 PIN(60,10,0.000,0.000)a
@@ -70,13 +70,13 @@ LIG(71,15,70,18)
 LIG(70,18,68,22)
 LIG(60,10,69,10)
 LIG(60,20,69,20)
-VLG  xor xor2(out,a,b);
+VLG   xor xor2(out,a,b);
 FSYM
 SYM  #and2
 BB(60,35,95,55)
 TITLE 72 46  #&
 MODEL 402
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(0,0,0,0, )
 VIS 0
 PIN(60,50,0.000,0.000)b
@@ -94,13 +94,13 @@ LIG(84,51,79,54)
 LIG(79,54,68,55)
 LIG(68,35,79,36)
 LIG(60,40,68,40)
-VLG  and and2(out,a,b);
+VLG   and and2(out,a,b);
 FSYM
 SYM  #light
 BB(93,0,99,14)
 TITLE 95 14  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(94,1,4,4,r)
 VIS 1
 PIN(95,15,0.000,0.000)out1
@@ -123,7 +123,7 @@ SYM  #light
 BB(93,30,99,44)
 TITLE 95 44  #light2
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(94,31,4,4,r)
 VIS 1
 PIN(95,45,0.000,0.000)out2

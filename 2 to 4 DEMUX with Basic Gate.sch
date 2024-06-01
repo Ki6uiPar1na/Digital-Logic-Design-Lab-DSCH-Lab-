@@ -1,11 +1,11 @@
 DSCH3
-VERSION 28/05/2024 02:57:35
-BB(-39,-39,214,175)
+VERSION 31/05/2024 21:23:49
+BB(-39,-39,124,191)
 SYM  #and3
 BB(80,140,115,170)
 TITLE 95 155  #&
 MODEL 403
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(80,140,0,0,P)
 VIS 0
 PIN(80,145,0.000,0.000)a
@@ -26,13 +26,13 @@ LIG(109,152,110,155)
 LIG(90,170,100,169)
 LIG(105,144,109,152)
 LIG(100,141,105,144)
-VLG  and and3(s,a,b,c);
+VLG   and and3(s,a,b,c);
 FSYM
 SYM  #button
 BB(-39,-39,-31,-30)
 TITLE -35 -35  #S0
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-38,-38,6,6,r)
 VIS 1
 PIN(-35,-30,0.000,0.000)S0
@@ -50,7 +50,7 @@ SYM  #button
 BB(6,-39,14,-30)
 TITLE 10 -35  #S1
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(7,-38,6,6,r)
 VIS 1
 PIN(10,-30,0.000,0.000)S1
@@ -68,7 +68,7 @@ SYM  #inv
 BB(-25,-30,-5,5)
 TITLE -15 -15  #~
 MODEL 101
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-20,-25,0,0, )
 VIS 0
 PIN(-15,-30,0.000,0.000)in
@@ -79,13 +79,13 @@ LIG(-5,-20,-15,-5)
 LIG(-25,-20,-15,-5)
 LIG(-15,-3,-15,-3)
 LIG(-15,-1,-15,5)
-VLG  not not1(out,in);
+VLG   not not1(out,in);
 FSYM
 SYM  #inv
 BB(20,-30,40,5)
 TITLE 30 -15  #~
 MODEL 101
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(25,-25,0,0, )
 VIS 0
 PIN(30,-30,0.000,0.000)in
@@ -96,13 +96,13 @@ LIG(40,-20,30,-5)
 LIG(20,-20,30,-5)
 LIG(30,-3,30,-3)
 LIG(30,-1,30,5)
-VLG  not not1(out,in);
+VLG   not not1(out,in);
 FSYM
 SYM  #and3
 BB(80,10,115,40)
 TITLE 95 25  #&
 MODEL 403
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(80,10,0,0,P)
 VIS 0
 PIN(80,15,0.000,0.000)a
@@ -123,13 +123,13 @@ LIG(109,22,110,25)
 LIG(90,40,100,39)
 LIG(105,14,109,22)
 LIG(100,11,105,14)
-VLG  and and3(s,a,b,c);
+VLG   and and3(s,a,b,c);
 FSYM
 SYM  #and3
 BB(80,50,115,80)
 TITLE 95 65  #&
 MODEL 403
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(80,50,0,0,P)
 VIS 0
 PIN(80,55,0.000,0.000)a
@@ -150,13 +150,13 @@ LIG(109,62,110,65)
 LIG(90,80,100,79)
 LIG(105,54,109,62)
 LIG(100,51,105,54)
-VLG  and and3(s,a,b,c);
+VLG   and and3(s,a,b,c);
 FSYM
 SYM  #and3
 BB(80,95,115,125)
 TITLE 95 110  #&
 MODEL 403
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(80,95,0,0,P)
 VIS 0
 PIN(80,100,0.000,0.000)a
@@ -177,13 +177,13 @@ LIG(109,107,110,110)
 LIG(90,125,100,124)
 LIG(105,99,109,107)
 LIG(100,96,105,99)
-VLG  and and3(s,a,b,c);
+VLG   and and3(s,a,b,c);
 FSYM
 SYM  #button
 BB(66,-39,74,-30)
 TITLE 70 -35  #E
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(67,-38,6,6,r)
 VIS 1
 PIN(70,-30,0.000,0.000)E
@@ -201,7 +201,7 @@ SYM  #light
 BB(118,10,124,24)
 TITLE 120 24  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(119,11,4,4,r)
 VIS 1
 PIN(120,25,0.000,0.000)out1
@@ -224,7 +224,7 @@ SYM  #light
 BB(118,50,124,64)
 TITLE 120 64  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(119,51,4,4,r)
 VIS 1
 PIN(120,65,0.000,0.000)out1
@@ -247,7 +247,7 @@ SYM  #light
 BB(118,140,124,154)
 TITLE 120 154  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(119,141,4,4,r)
 VIS 1
 PIN(120,155,0.000,0.000)out1
@@ -270,7 +270,7 @@ SYM  #light
 BB(118,95,124,109)
 TITLE 120 109  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(119,96,4,4,r)
 VIS 1
 PIN(120,110,0.000,0.000)out1
@@ -330,5 +330,5 @@ LIG(80,120,70,120)
 LIG(80,165,70,165)
 LIG(70,165,70,120)
 LIG(70,35,70,-30)
-TEXT 174 152  #2 to 4 DMUX with BASIC Gate
+TEXT -9 181  #1 to 4 DMUX with BASIC Gate
 FFIG G:\dsch\dsch\Lab Exam\2 to 4 DEMUX with Basic Gate.sch

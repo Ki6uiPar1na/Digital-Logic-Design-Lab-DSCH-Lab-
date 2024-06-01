@@ -1,11 +1,11 @@
 DSCH3
-VERSION 26/05/2024 14:36:26
-BB(-4,-15,74,64)
+VERSION 31/05/2024 21:32:13
+BB(-4,-15,74,85)
 SYM  #or2
 BB(35,-10,70,10)
 TITLE 55 0  #|
 MODEL 502
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(0,0,0,0, )
 VIS 0
 PIN(35,-5,0.000,0.000)a
@@ -28,13 +28,13 @@ LIG(47,-7,49,-3)
 LIG(49,-3,50,0)
 LIG(50,0,49,3)
 LIG(35,-5,48,-5)
-VLG  or or2(s,a,b);
+VLG   or or2(s,a,b);
 FSYM
 SYM  #or2
 BB(35,25,70,45)
 TITLE 55 35  #|
 MODEL 502
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(0,0,0,0, )
 VIS 0
 PIN(35,30,0.000,0.000)a
@@ -57,13 +57,13 @@ LIG(47,28,49,32)
 LIG(49,32,50,35)
 LIG(50,35,49,38)
 LIG(35,30,48,30)
-VLG  or or2(s,a,b);
+VLG   or or2(s,a,b);
 FSYM
 SYM  #button
 BB(-4,-9,5,-1)
 TITLE 0 -5  #button1
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-3,-8,6,6,r)
 VIS 1
 PIN(5,-5,0.000,0.000)in1
@@ -81,7 +81,7 @@ SYM  #button
 BB(-4,1,5,9)
 TITLE 0 5  #button2
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-3,2,6,6,r)
 VIS 1
 PIN(5,5,0.000,0.000)in2
@@ -99,7 +99,7 @@ SYM  #button
 BB(-4,36,5,44)
 TITLE 0 40  #button3
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-3,37,6,6,r)
 VIS 1
 PIN(5,40,0.000,0.000)in3
@@ -117,7 +117,7 @@ SYM  #light
 BB(68,-15,74,-1)
 TITLE 70 -1  #light1
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(69,-14,4,4,r)
 VIS 1
 PIN(70,0,0.000,0.000)out1
@@ -140,7 +140,7 @@ SYM  #light
 BB(68,20,74,34)
 TITLE 70 34  #light2
 MODEL 49
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(69,21,4,4,r)
 VIS 1
 PIN(70,35,0.000,0.000)out2
@@ -163,7 +163,7 @@ SYM  #button
 BB(-4,56,5,64)
 TITLE 0 60  #button4
 MODEL 59
-PROP                                                                                                                                   
+PROP                                                                                                                                    
 REC(-3,57,6,6,r)
 VIS 1
 PIN(5,60,0.000,0.000)in4
@@ -186,4 +186,5 @@ LIG(35,5,5,5)
 LIG(35,40,5,40)
 LIG(25,-5,35,-5)
 LIG(5,60,55,60)
+TEXT 15 75  #Fig: Encoder Circuit
 FFIG G:\dsch\dsch\Lab Exam\Encoder.sch
